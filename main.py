@@ -38,4 +38,4 @@ def log():
 db.connect()
 db.create_tables([UserLog])
 
-run(host='192.168.0.1', port=80)
+run(host='0.0.0.0', port=80)
